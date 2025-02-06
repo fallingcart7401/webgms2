@@ -1,0 +1,43 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    color: #333;
+}
+
+/* Buttons */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Logo Styling */
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100px;  /* Adjust as needed */
+    height: auto;
+}
+
+/* Game Container */
+.game-container {
+    margin-top: 20px;
+}
