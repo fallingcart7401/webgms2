@@ -1,43 +1,65 @@
-/* General Page Styling */
+/* General styles for the whole page */
 body {
     font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    text-align: center;
 }
 
-/* Header */
-h1 {
-    color: #333;
-}
-
-/* Buttons */
-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    margin: 10px;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-/* Logo Styling */
+/* Logo styles */
 .logo {
     position: absolute;
     top: 10px;
     right: 10px;
-    width: 100px;  /* Adjust as needed */
+    width: 80px;  /* Adjust size */
     height: auto;
 }
 
-/* Game Container */
+/* Main heading */
+h1 {
+    color: #333;
+    margin-top: 50px;
+}
+
+/* Game container */
 .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between game sections */
     margin-top: 20px;
+}
+
+/* Individual game box */
+.game {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Game images */
+.game img {
+    width: 100%;  /* Make image responsive */
+    max-width: 250px;  /* Prevents it from being too big */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Game buttons */
+button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #003d80;
 }
